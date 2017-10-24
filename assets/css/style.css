@@ -4,7 +4,7 @@
 }
 
 body { 
-background: #ab0a0a;
+	background-image: url("assets/images/concrete.png");
 margin: 0px;
  }
 
@@ -17,7 +17,7 @@ font-size: 20px;
 
  h2 {
  	text-align: left;
- 	color: #172B44;
+ 	color: #4aaaa5;
  	padding-bottom: 20px;
  	font-size: 20px;
  }
@@ -26,7 +26,7 @@ font-size: 20px;
 position: relative;
 background: #ffffff;
 height: 75px;
-border-bottom: solid;
+border-bottom: solid #cccccc;
 margin-bottom: 20px;
 font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -34,7 +34,7 @@ font-family: 'Georgia', Times, Times New Roman, serif;
 #name {
 	float: left;
 	position: relative;
-	background: #172B44;
+	background: #4aaaa5;
 	text-align: center;
 	width: 250px;
 	color: #FFF2E1;
@@ -91,7 +91,54 @@ position:absolute;
 bottom:0;
 width:100%;
 height: 75px;
-background: #ffffff;
-border-top: solid;
+background: #666666;
+color: #ffffff;
+border-top: solid #4aaaa5;
 margin-top: 20px;
+}
+
+#footer p{
+	text-align: center;
+	padding: 20px;
+}
+
+#form {
+	width: 60%;
+	background: #ffffff;
+	border: solid #dddddd;
+	padding: 20px;
+	left: 20px;
+	margin-bottom: 20px;
+	clear: both;
+	float: left;
+	position: absolute;
+}
+
+#projects {
+	width: 60%;
+	height: auto;
+	background: #ffffff;
+	border: solid #dddddd;
+	padding: 20px;
+	left: 20px;
+	margin-bottom: 20px;
+	clear: both;
+	float: left;
+	position: absolute;
+}
+
+.images {
+	position: absolute;
+	margin: 20px;
+	float: left;
+
+}
+
+.label {
+	position: absolute;
+	padding: 20px;
+	color: #ffffff;
+	background: #4aaaa5;
+	width: 200px;
+	text-align: center;
 }
