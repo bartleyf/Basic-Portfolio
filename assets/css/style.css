@@ -87,9 +87,9 @@ font-family: 'Georgia', Times, Times New Roman, serif;
 
 #footer {
 clear: both;
-position:absolute;
-bottom:0;
-width:100%;
+position: fixed;
+bottom: 0;
+width: 100%;
 height: 75px;
 background: #666666;
 color: #ffffff;
@@ -103,7 +103,7 @@ margin-top: 20px;
 }
 
 #form {
-	width: 60%;
+	width: 75%;
 	background: #ffffff;
 	border: solid #dddddd;
 	padding: 20px;
@@ -115,7 +115,7 @@ margin-top: 20px;
 }
 
 #projects {
-	width: 60%;
+	width: 75%;
 	height: auto;
 	background: #ffffff;
 	border: solid #dddddd;
@@ -128,10 +128,9 @@ margin-top: 20px;
 }
 
 .images {
-	position: absolute;
+	position: relative;
 	margin: 20px;
 	float: left;
-
 }
 
 .label {
