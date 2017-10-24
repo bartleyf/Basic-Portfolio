@@ -4,12 +4,16 @@
 }
 
 body { 
-
+background: #ab0a0a;
+margin: 0px;
  }
 
 #header {
+position: relative;
 background: #ffffff;
-border-bottom: #cccccc;
+height: 75px;
+border-bottom: solid;
+margin-bottom: 20px;
 font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -17,30 +21,52 @@ font-family: 'Georgia', Times, Times New Roman, serif;
 	float: left;
 	position: relative;
 	background: #172B44;
+	text-align: center;
+	width: 250px;
 	color: #FFF2E1;
-	padding: 20px;
+	height: 72px;
 	left: 100px;
 }
 
 #navigation {
 	float: right;
+	top: 10px;
+	right: 30px;
 	position: relative;
 	padding: 20PX;
 }
 
+#profile {
+	width: 220px;
+	float: left;
+}
+
 #aboutMe {
-	width: 960px;
+	width: 800px;
 	background: #ffffff;
 	border: #dddddd;
 	padding: 20px;
-}
-
-#maincontent {
+	left: 20px;
+	margin-bottom: 20px;
 	clear: both;
 	float: left;
-	position: relative;
+	position: absolute;
 }
 
-#connent {
+#connect {
+	float: right;
 	position: relative;
+	background: #ffffff;
+	right: 20px;
+	width: 200px;
+	height: 150px;
+}
+
+footer {
+clear: both;
+position: relative;
+background: #ffffff;
+height: 75px;
+border-top: solid;
+margin-top: 20px;
 }
